@@ -20,7 +20,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [solution](https://www.frontendmentor.io/solutions/recipe-page-using-just-htmlcss-K8Iaf4PVUK)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://your-live-site-url.com](https://selhabahmedyakoub.github.io/Frontendmentor_challenge1-Recipe-page-/))
 
 ## My process
 
