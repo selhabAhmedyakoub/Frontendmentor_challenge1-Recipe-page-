@@ -5,8 +5,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Overview
 
-![Image Description](./design/desktopdesign.jpg)
 
+![Recipe Page Design](./design/mobile-design.jpg)
 
 
 ### Links
