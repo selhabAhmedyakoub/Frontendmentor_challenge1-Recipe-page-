@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "YoungSerif"; /* Name your font family */
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "Outfit"; /* Name your font family */
+  src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf"); /* Locate the .ttf file within your directory*/
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  font-size: 16px;
+}
+body {
+  font-family: "Outfit";
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  background-color: hsl(30, 54%, 90%);
+  line-height: 1.4;
+}
+.container {
+  width: 100%; /* Make container width responsive */
+  max-width: 900px; /* Maximum width */
+  margin: 20px auto 0;
+}
+.recipe {
+  position: relative;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: hsl(0, 0%, 100%);
+}
+.main-photo {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 100%; /* Make the image responsive to its container */
+  height: auto; /* Ensure the image maintains its aspect ratio */
+}
+
+.title {
+  margin-bottom: 30px;
+  font-family: "YoungSerif";
+  font-weight: 400;
+}
+.prep {
+  padding: 20px;
+  margin: 30px 0 30px 0;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+}
+.title0 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 20px;
+  font-family: "YoungSerif";
+  font-weight: 400;
+}
+.list-prep {
+  padding-left: 30px;
+}
+.list-prep li {
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.list-prep li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.Ingredients {
+  margin: 30px 0 30px 0;
+  border-bottom: 1px hsl(30, 18%, 87%) solid;
+}
+.title1 {
+  margin-bottom: 20px;
+  color: hsl(14, 45%, 36%);
+  font-family: "YoungSerif";
+  font-weight: 400;
+}
+.list-ingredients {
+  padding-left: 30px;
+}
+.list-ingredients li {
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.list-ingredients li:last-of-type {
+  margin-bottom: 40px;
+}
+.list-ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.Instructions {
+  margin: 30px 0 30px 0;
+  border-bottom: 1px hsl(30, 18%, 87%) solid;
+}
+.title2 {
+  margin-bottom: 20px;
+  color: hsl(14, 45%, 36%);
+  font-family: "YoungSerif";
+  font-weight: 400;
+}
+.list-instructions {
+  padding-left: 30px;
+}
+.list-instructions li {
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.list-instructions li:last-of-type {
+  margin-bottom: 40px;
+}
+.list-instructions li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.nutrition {
+  margin: 30px 0 30px 20px;
+}
+.title3 {
+  margin-bottom: 20px;
+  color: hsl(14, 45%, 36%);
+  font-family: "YoungSerif";
+  font-weight: 400;
+}
+.nutrition p {
+  margin-bottom: 20px;
+}
+.nutrition table {
+  border-collapse: collapse; /* Ensures cells share borders */
+}
+td {
+  padding: 10px 30px;
+  border-bottom: 1px hsl(30, 18%, 87%) solid;
+}
+td:first-child {
+  width: 300px; /* Adjust width for the first column */
+}
+.right {
+  color: hsl(14, 45%, 36%);
+}
+/* Media Queries */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller devices */
+  }
+  .container {
+    margin: 0;
+  }
+  .recipe {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; /* Further reduce font size for very small devices */
+  }
+  .container {
+    margin: 0;
+  }
+  .recipe {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
