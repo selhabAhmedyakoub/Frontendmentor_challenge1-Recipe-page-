@@ -6,7 +6,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Overview
 
 
-![Recipe Page Design](./design/mobile-design.jpg)
+![Recipe Page Design](./design/desktop-design.jpg)
 
 
 ### Links
